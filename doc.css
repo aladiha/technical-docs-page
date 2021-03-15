@@ -1,0 +1,97 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+}
+
+.side-nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    border-right: gray solid 2px;
+    height: 100%;
+}
+
+.page-title {
+    height: 60px;
+    line-height: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    padding-left: 30px;
+}
+
+.nav-element {
+    border-top: black solid 1px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0.9em;
+}
+
+main{
+  margin-left: 270px;
+}
+
+.main-section {
+    margin-top: 20px;
+    padding: 16px;
+    padding-right: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.section-p {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.section-list {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.code {
+    margin: 5px;
+    background-color: lightgray;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.after {
+    margin-top: 5px;
+}
+
+.nested-list{
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+@media (min-width: 1300px){
+    li, .section-p {
+        width: 60%;
+    }
+}
